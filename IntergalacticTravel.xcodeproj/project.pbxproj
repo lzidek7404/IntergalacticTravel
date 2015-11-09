@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7C36C0B1BED46B90021D8E1 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C36C0A1BED46B90021D8E1 /* ImageViewController.swift */; };
 		D7C9CCA41BEBF43B003A3031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9CCA31BEBF43B003A3031 /* AppDelegate.swift */; };
 		D7C9CCA61BEBF43B003A3031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C9CCA51BEBF43B003A3031 /* ViewController.swift */; };
 		D7C9CCA91BEBF43B003A3031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C9CCA71BEBF43B003A3031 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7C36C0A1BED46B90021D8E1 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		D7C9CCA01BEBF43B003A3031 /* IntergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C9CCA31BEBF43B003A3031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7C9CCA51BEBF43B003A3031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				D7C9CCAA1BEBF43B003A3031 /* Assets.xcassets */,
 				D7C9CCAC1BEBF43B003A3031 /* LaunchScreen.storyboard */,
 				D7C9CCAF1BEBF43B003A3031 /* Info.plist */,
+				D7C36C0A1BED46B90021D8E1 /* ImageViewController.swift */,
 			);
 			path = IntergalacticTravel;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C9CCA61BEBF43B003A3031 /* ViewController.swift in Sources */,
+				D7C36C0B1BED46B90021D8E1 /* ImageViewController.swift in Sources */,
 				D7C9CCA41BEBF43B003A3031 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				D7C9CCCA1BEBF43C003A3031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C9CCCB1BEBF43C003A3031 /* Build configuration list for PBXNativeTarget "IntergalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				D7C9CCCD1BEBF43C003A3031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7C9CCCE1BEBF43C003A3031 /* Build configuration list for PBXNativeTarget "IntergalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				D7C9CCD01BEBF43C003A3031 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
